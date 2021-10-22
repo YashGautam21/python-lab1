@@ -1,0 +1,7 @@
+#program for check the string is palindrome or not
+x=input("enter the string::")
+y=x[::-1]
+if x==y:
+    print("it is palindrome")
+else:
+    print("it is not palindrome")
